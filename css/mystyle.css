@@ -1,43 +1,35 @@
-
-img.img-carousel
-{
-  width: 100%;
-  height: 420px;
+img.img-carousel {
+	width: 100%;
+	height: 420px;
 
 }
 
-
-.navbar-dark .navbar-nav .nav-link
- {
+.navbar-dark .navbar-nav .nav-link {
 	color: white;
 }
 
-.navbar-dark .navbar-nav .nav-link:hover
-{
+.navbar-dark .navbar-nav .nav-link:hover {
 	font-weight: bold;
 	color: #F0DD0A;
 }
 
-.bg-menu
-{
-	background: linear-gradient(180deg,#140B8D,#1572FD);
+.bg-menu {
+	background: linear-gradient(180deg, #140B8D, #1572FD);
 	opacity: 0.90;
 }
 
-.navbar-dark .navbar-toggler
-{
+.navbar-dark .navbar-toggler {
 	color: white;
 }
-.navbar-dark .navbar-toggler:hover
-{
 
+.navbar-dark .navbar-toggler:hover {
 	border-color: white;
 }
 
 footer {
-	background: linear-gradient(180deg,#140B8D,#1572FD);
+	width: 100%;
+	background: linear-gradient(180deg, #140B8D, #1572FD);
 	padding: 50px 0px 20px 0px;
-	position: relative;
 }
 
 footer h4 {
@@ -66,18 +58,54 @@ footer ul li {
 	margin: 0 5px;
 }
 
-footer a i
-{
+footer a i {
 	color: white;
 	text-decoration: none;
 }
 
-.slidesubmenu
-{
-
-	position: relative;
-	/* left: 0px;
-	top: 0px; */
+.slidesubmenu {
 	z-index: -1;
+}
 
+#rowCarousel,
+#rowRegister,
+#rowLogin {
+	position: initial;
+}
+
+#rowCarousel,
+#rowFooter {
+	align-items: center;
+	justify-content: center;
+}
+
+#divLinkControl {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+}
+
+#divLinkControl a {
+	width: 30px;
+	height: 30px;
+}
+
+.carousel-control-prev {
+	left: 200px;
+}
+
+.carousel-control-next {
+	right: 200px;
+}
+
+#notAMember {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+#notAMember a {
+	padding: 0;
 }
