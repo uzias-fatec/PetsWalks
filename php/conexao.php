@@ -1,5 +1,5 @@
 <?php
-$servername = "127.0.0.1:3306"; // = localhost mysql.luciene.pro.br
+$servername = "127.0.0.1:3306"; // troque a porta caso nao consiga conectar
 $username = "root";
 $password = "";
 $bd="bdpetswalks";
