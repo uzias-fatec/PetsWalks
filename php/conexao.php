@@ -1,8 +1,8 @@
 <?php
-$servername = "127.0.0.1"; // = localhost mysql.luciene.pro.br
+$servername = "127.0.0.1:3306"; // = localhost mysql.luciene.pro.br
 $username = "root";
 $password = "";
-$bd="petswalks";
+$bd="bdpetswalks";
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$bd", $username, $password);
   // set the PDO error mode to exception
